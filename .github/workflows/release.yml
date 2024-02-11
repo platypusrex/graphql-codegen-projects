@@ -25,12 +25,12 @@ jobs:
       - name: Setup Node.js 18
         uses: actions/setup-node@v4
         with:
-          node_version: 18
+          node-version: 18
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Create PR or publish release
+      - name: Create PR or Publish release
         id: changesets
         uses: changesets/action@v1
         with:
