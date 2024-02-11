@@ -71,7 +71,7 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "@graphql-codegen/cli": "^5.0.0"
+    "@graphql-codegen/cli": ">=5.x"
   },
   "dependencies": {
     "graphql-config": "^5.0.3"
