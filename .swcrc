@@ -1,0 +1,10 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript"
+    },
+    "target": "esnext",
+    "baseUrl": "."
+  },
+  "sourceMaps": false
+}
