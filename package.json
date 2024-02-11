@@ -62,7 +62,7 @@
     "version": "changeset version",
     "ci": "pnpm run check:types && pnpm run build",
     "prerelease": "pnpm run ci",
-    "publish": "pnpm run prerelease && changeset publish && git push --follow-tags"
+    "release": "pnpm run prerelease && changeset publish && git push --follow-tags"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
