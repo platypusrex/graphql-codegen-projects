@@ -1,6 +1,6 @@
 {
   "name": "graphql-codegen-projects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "A more type efficient and typesafe projects configuration helper for @graphql-codegen",
   "author": "Frank Cooke <frankcooke79@gmail.com>",
