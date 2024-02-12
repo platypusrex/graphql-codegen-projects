@@ -28,26 +28,22 @@
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "typings": "dist/dts/index.d.ts",
+  "types": "dist/dts/index.d.ts",
   "exports": {
-    ".": {
-      "require": {
-        "types": "./dist/dts/index.d.ts",
-        "default": "./dist/cjs/index.js"
-      },
-      "import": {
-        "types": "./dist/dts/index.d.ts",
-        "default": "./dist/esm/index.js"
-      },
-      "default": {
-        "types": "./dist/dts/index.d.ts",
-        "default": "./dist/esm/index.js"
-      }
+    "require": {
+      "types": "./dist/dts/index.d.ts",
+      "default": "./dist/cjs/index.js"
     },
-    "./package.json": "./package.json"
+    "import": {
+      "types": "./dist/dts/index.d.ts",
+      "default": "./dist/esm/index.js"
+    },
+    "default": {
+      "types": "./dist/dts/index.d.ts",
+      "default": "./dist/esm/index.js"
+    }
   },
   "publishConfig": {
-    "directory": "dist",
     "access": "public"
   },
   "scripts": {
