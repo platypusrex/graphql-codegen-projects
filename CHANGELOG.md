@@ -1,5 +1,11 @@
 # graphql-codegen-projects
 
+## 0.2.0
+
+### Minor Changes
+
+- 68e2e3e: Fixes issues where typings could not be imported from the root.
+
 ## 0.1.1
 
 ### Patch Changes
