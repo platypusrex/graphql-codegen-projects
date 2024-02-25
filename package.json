@@ -28,18 +28,18 @@
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/dts/types.d.ts",
+  "types": "dist/dts/index.d.ts",
   "exports": {
     "require": {
-      "types": "./dist/dts/types.d.ts",
+      "types": "./dist/dts/index.d.ts",
       "default": "./dist/cjs/index.js"
     },
     "import": {
-      "types": "./dist/dts/types.d.ts",
+      "types": "./dist/dts/index.d.ts",
       "default": "./dist/esm/index.js"
     },
     "default": {
-      "types": "./dist/dts/types.d.ts",
+      "types": "./dist/dts/index.d.ts",
       "default": "./dist/esm/index.js"
     }
   },
