@@ -5,7 +5,7 @@ The [graphql-codegen](https://the-guild.dev/graphql/codegen) package is an amazi
 types for both the server and client. It even supports a [multi-project](https://the-guild.dev/graphql/codegen/docs/config-reference/multiproject-config)
 configuration, allowing you to create separate configurations in the same config file. The multi-project configuration
 uses a structure established by [graphql-config](https://the-guild.dev/graphql/config), which is also the typescript 
-typing used for by `graphql-codegen` for a multi-project setupp.
+typing used by `graphql-codegen` for a multi-project setupp.
 
 Unfortunately, the typing falls short of provided proper typings and autocompletion for `graphql-codegen` itself. This
 package is aimed at improving those typing and providing a util for creating a multi-project configuration with the same 
