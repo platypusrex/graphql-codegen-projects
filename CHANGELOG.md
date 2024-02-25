@@ -1,5 +1,11 @@
 # graphql-codegen-projects
 
+## 0.2.1
+
+### Patch Changes
+
+- cb6eb6b: Fixes the last minor version publish which was missing the typings for createProjectConfig.
+
 ## 0.2.0
 
 ### Minor Changes
