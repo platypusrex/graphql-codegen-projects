@@ -1,5 +1,11 @@
 # graphql-codegen-projects
 
+## 0.2.2
+
+### Patch Changes
+
+- 09c7f5a: Fix issues with typings and cjs build.
+
 ## 0.2.1
 
 ### Patch Changes
