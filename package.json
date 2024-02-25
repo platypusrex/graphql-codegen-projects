@@ -28,21 +28,26 @@
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/dts/index.d.ts",
+  "types": "dist/dts/types.d.ts",
   "exports": {
     "require": {
-      "types": "./dist/dts/index.d.ts",
+      "types": "./dist/dts/types.d.ts",
       "default": "./dist/cjs/index.js"
     },
     "import": {
-      "types": "./dist/dts/index.d.ts",
+      "types": "./dist/dts/types.d.ts",
       "default": "./dist/esm/index.js"
     },
     "default": {
-      "types": "./dist/dts/index.d.ts",
+      "types": "./dist/dts/types.d.ts",
       "default": "./dist/esm/index.js"
     }
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -64,7 +69,7 @@
     "@changesets/cli": "^2.27.1",
     "@graphql-codegen/cli": "^5.0.2",
     "@swc/cli": "^0.3.9",
-    "@swc/core": "^1.4.0",
+    "@swc/core": "^1.4.2",
     "concurrently": "^8.2.2",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
